@@ -1,0 +1,30 @@
+# roteirozinho Django
+
+1 - instalar o pip
+
+2 - criar a pasta do crud
+
+3 - criar uma virtual env com o comando "python3 -m venv nomedavenv"
+
+4 - ativar a venv criada com o comando "source venv/bin/activate"
+
+5 - instalar o django com "pip install django"
+
+6 - migrations "python manage.py makemigrations"
+
+7 - migrate "python manage.py migrate"
+
+8 - rodar o servidor com "python manage.py runserver"
+
+
+#opcional
+
+9 - python manage.py createsuperuser
+
+10 - abrir o arquivo admin.py e adicionar o seguinte trecho de código
+
+from .models import Product
+
+admin.site.register(Product)
+
+
